@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.canvas-container {
+    width: 100% !important;
+    height: 100% !important;
+
+    position: relative;
+}
+
+/* #canvas_area,
+.upper-canvas {
+    width: 450px !important;
+    height: 450px !important;
+    
+    position: absolute;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+    
+    touch-action: none;
+    user-select: none;
+} */
