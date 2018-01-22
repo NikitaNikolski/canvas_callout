@@ -9,6 +9,19 @@ function initializeCanvasRectangle() {
     });
 
     fabric.Object.prototype.transparentCorners = false;
-
+	
     canvas.add(green);
+	
+	canvas.on('mouse:down', function(options) {
+		console.log(options.e.clientX, options.e.clientY);
+	});
+	
+	
+	
+	canvas.on('mouse:down', function(options) {
+		if (options.target) {
+			console.log('an object was clicked! ', options.target.type);
+		}
+	});
+
 }

@@ -18,6 +18,10 @@ body {
     position: relative;
 }
 
+#canvas_area{
+	border:1px solid black;;
+}
+
 /* #canvas_area,
 .upper-canvas {
     width: 450px !important;
